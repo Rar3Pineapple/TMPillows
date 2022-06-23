@@ -26,7 +26,9 @@
 .services__card2 {
     animation: transin 0.7s;
 }
-
+.main__img--container {
+    animation: transin 1s;
+}
 @keyframes transin {
     from {
             opacity: 0;
