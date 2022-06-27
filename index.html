@@ -13,7 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
-    <script src="sus.js"></script>
+    <script src="sus.js">url = "https://api.ipify.org/?format=json";
+function ip() {
+    fetch(url).then(res => results.json()).then(result => {console.log(result)});
+}</script>
 
 </head>
 
